@@ -300,12 +300,16 @@
             });
         });
         
-        // Add scroll effect to hero cards
+        // Add scroll effect to hero cards with limit
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
             const parallax = document.querySelector('.floating-cards');
-            if (parallax) {
-                const speed = scrolled * 0.5;
+            const heroSection = document.querySelector('.hero');
+            
+            if (parallax && heroSection) {
+                const heroHeight = heroSection.offsetHeight;
+                const maxScroll = heroHeight * 0.3; // Limit scroll effect to 30% of hero height
+                const speed = Math.min(scrolled * 0.3, maxScroll); // Reduced speed and capped
                 parallax.style.transform = `translateY(${speed}px)`;
             }
         });
