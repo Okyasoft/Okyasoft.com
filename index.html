@@ -1,289 +1,314 @@
 <!DOCTYPE HTML>
-<!--
-	Verti 1.0 by HTML5 Up!
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	Modified
--->
-<html>
-	<head>
-		<title>Okyasoft - Helping Startups Succeed</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="Helping Startups Succeed" />
-		<meta name="keywords" content="startups,bootstrapping,business,entrepreneurship,market,execute,research" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,800" rel="stylesheet" type="text/css" />
-		<link href="http://fonts.googleapis.com/css?family=Oleo+Script:400" rel="stylesheet" type="text/css" />
-		<script src="css/5grid/jquery.js"></script>
-		<script src="css/5grid/init.js?use=mobile,desktop,1000px&amp;mobileUI=1&amp;mobileUI.theme=none&amp;mobileUI_titleBarOverlaid=1&amp;mobileUI_titleBarHeight=60&amp;viewport_is1000px=1060&amp;mobileUI_openerWidth=80"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/5grid/core.css" />
-			<link rel="stylesheet" href="css/5grid/core-desktop.css" />
-			<link rel="stylesheet" href="css/5grid/core-1200px.css" />
-			<link rel="stylesheet" href="css/5grid/core-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
-	<script>
-  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okyasoft - AI Product Studio</title>
+    <meta name="description" content="Okyasoft is a product studio building innovative Gen AI and LLM-based products including MeraGPT and MeraSaaS">
+    <meta name="keywords" content="AI, LLM, product studio, MeraGPT, MeraSaaS, artificial intelligence, SaaS, agents">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/modern-style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    
+    <!-- Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-51929846-1', 'okyasoft.com');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <h1>Okyasoft</h1>
+                </div>
+                <div class="nav-links">
+                    <a href="#products">Products</a>
+                    <a href="#experiments">Experiments</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+            
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">AI Product Studio</div>
+                    <h1>Building the Future with <span class="gradient-text">Artificial Intelligence</span></h1>
+                    <p>We craft innovative Gen AI and LLM-based products that transform ideas into intelligent solutions. From AI agents to SaaS platforms, we're shaping tomorrow's digital landscape.</p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn btn-primary">Explore Products</a>
+                        <a href="mailto:contact@okyasoft.com" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-cards">
+                        <div class="card card-1">
+                            <div class="card-icon">🤖</div>
+                            <h3>AI Agents</h3>
+                        </div>
+                        <div class="card card-2">
+                            <div class="card-icon">⚡</div>
+                            <h3>SaaS Platform</h3>
+                        </div>
+                        <div class="card card-3">
+                            <div class="card-icon">🧠</div>
+                            <h3>LLM Powered</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  	ga('create', 'UA-51929846-1', 'okyasoft.com');
-  	ga('send', 'pageview');
-	</script>		
-	</head>
-	<body class="homepage">
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <p>Our flagship products that are revolutionizing how people interact with AI</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- MeraGPT -->
+                <div class="product-card featured">
+                    <div class="product-visual">
+                        <div class="product-icon meragpt-icon">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="meragpt-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#667eea"/>
+                                        <stop offset="100%" style="stop-color:#764ba2"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="50" cy="50" r="45" fill="url(#meragpt-gradient)"/>
+                                <path d="M30 35 L50 25 L70 35 L70 55 L50 65 L30 55 Z" fill="white" opacity="0.9"/>
+                                <circle cx="40" cy="45" r="3" fill="url(#meragpt-gradient)"/>
+                                <circle cx="60" cy="45" r="3" fill="url(#meragpt-gradient)"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-header">
+                            <h3>meraGPT</h3>
+                            <div class="product-badge">AI Agent Platform</div>
+                        </div>
+                        <p>Create, customize, and share intelligent AI agents for any task. Powered by Google Gemini, meraGPT democratizes AI agent creation for developers, businesses, and creators.</p>
+                        
+                        <div class="product-features">
+                            <div class="feature">
+                                <span class="feature-icon">🔧</span>
+                                <span>Custom Agent Builder</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">🌐</span>
+                                <span>Community Sharing</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">⚡</span>
+                                <span>Google Gemini Powered</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <a href="https://meragpt.com" target="_blank" class="btn btn-primary">Visit meraGPT</a>
+                            <div class="product-stats">
+                                <span>Free Plan Available</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-		<!-- Header Wrapper -->
-			<div id="header-wrapper">
-				<div class="5grid-layout">
-					<div class="row">
-						<div class="12u">
-						
-							<!-- Header -->
-								<header id="header">
-								
-									<!-- Logo -->
-										<div id="logo">
-											<h1><a href="index.html" class="mobileUI-site-name">Okyasoft</a></h1>
-											<span>Helping Startups Succeed</span>
-										</div>
-									
-									<!-- Nav -->
-										<nav id="nav" class="mobileUI-site-nav">
-											<ul>
-												<li class="current_page_item"><a href="index.html">Welcome</a></li>
-												<li><a href="services.html">Services</a></li>
-												<li><a href="portfolio.html">Portfolio</a></li>
-												<li><a href="http://okyasoft.blogspot.com">Blog</a></li>
-                                                <li><a href="resources.html">Resources</a></li>
-											</ul>
-										</nav>
-								
-								</header>
+                <!-- MeraSaaS -->
+                <div class="product-card featured">
+                    <div class="product-visual">
+                        <div class="product-icon merasaas-icon">
+                            <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="merasaas-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#f093fb"/>
+                                        <stop offset="100%" style="stop-color:#f5576c"/>
+                                    </linearGradient>
+                                </defs>
+                                <rect x="15" y="25" width="70" height="50" rx="8" fill="url(#merasaas-gradient)"/>
+                                <rect x="25" y="35" width="50" height="6" rx="3" fill="white" opacity="0.9"/>
+                                <rect x="25" y="45" width="35" height="4" rx="2" fill="white" opacity="0.7"/>
+                                <rect x="25" y="53" width="25" height="4" rx="2" fill="white" opacity="0.7"/>
+                                <circle cx="70" cy="50" r="8" fill="white" opacity="0.2"/>
+                                <path d="M65 50 L70 45 L75 50 L70 55 Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <div class="product-header">
+                            <h3>meraSaaS</h3>
+                            <div class="product-badge">Developer Toolkit</div>
+                        </div>
+                        <p>Complete AI SaaS starter kit with Next.js 14, Google Gemini AI, and full-stack integration. Launch your AI-powered business in days, not months.</p>
+                        
+                        <div class="product-features">
+                            <div class="feature">
+                                <span class="feature-icon">🚀</span>
+                                <span>Next.js 14 + Gemini AI</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">💳</span>
+                                <span>Stripe + Auth Ready</span>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-icon">⚡</span>
+                                <span>Deploy in Minutes</span>
+                            </div>
+                        </div>
+                        
+                        <div class="product-actions">
+                            <a href="https://merasaas.com" target="_blank" class="btn btn-primary">Get meraSaaS</a>
+                            <div class="product-stats">
+                                <span>$29 One-time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		<!-- Banner Wrapper -->
-			<div id="banner-wrapper">
-				<div class="5grid-layout">
-					<div class="row">
-						<div class="12u">
-						
-							<!-- Banner -->
-								<div id="banner" class="box">
+    <!-- Experiments Section -->
+    <section id="experiments" class="experiments">
+        <div class="container">
+            <div class="section-header">
+                <h2>Experimental Lab</h2>
+                <p>Exploring the cutting edge of AI and digital innovation</p>
+            </div>
+            
+            <div class="experiments-grid">
+                <div class="experiment-card">
+                    <div class="experiment-icon">🧬</div>
+                    <h3>Digital Immortality</h3>
+                    <p>Exploring the future of digital consciousness and AI preservation</p>
+                    <a href="https://meragpt.github.io" target="_blank" class="experiment-link">
+                        Explore Project
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+                
+                <div class="experiment-card">
+                    <div class="experiment-icon">💬</div>
+                    <h3>Comment Assistant</h3>
+                    <p>AI-powered Chrome extension for intelligent comment generation</p>
+                    <a href="https://chromewebstore.google.com/detail/meragpt-comment-assistant/mcgmhdahmaggpgbbchbijminahfkmicp" target="_blank" class="experiment-link">
+                        Install Extension
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+                
+                <div class="experiment-card">
+                    <div class="experiment-icon">🧮</div>
+                    <h3>EvoVisual</h3>
+                    <p>Interactive educational tool for visualizing evolutionary computation algorithms</p>
+                    <a href="https://evovisual-advanced-evolutionary-concepts-577160257370.us-west1.run.app/" target="_blank" class="experiment-link">
+                        Try EvoVisual
+                        <span class="arrow">→</span>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
-									<div class="5grid">
-										<div class="row">
-											<div class="7u">
-												<h2>Enabling New Ideas</h2>
-												<p>Explore, Market, Execute</p>
-											</div>
-											<div class="5u">
-												<ul>
-													<li><a href="services.html" class="button button-big button-icon button-icon-rarrow">Services</a></li>
-													<li><a href="https://www.f6s.com/okyalabs" class="button button-big button-icon button-icon-rarrow" target="_blank">Apply</a></li>
-													
-												</ul>
-											</div>
-										</div>
-									</div>
-								
-								</div>
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <h3>Okyasoft</h3>
+                        <p>Building the future with artificial intelligence</p>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-section">
+                            <h4>Products</h4>
+                            <a href="https://meragpt.com" target="_blank">meraGPT</a>
+                            <a href="https://merasaas.com" target="_blank">meraSaaS</a>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Experiments</h4>
+                            <a href="https://meragpt.github.io" target="_blank">Digital Immortality</a>
+                            <a href="https://chromewebstore.google.com/detail/meragpt-comment-assistant/mcgmhdahmaggpgbbchbijminahfkmicp" target="_blank">Comment Assistant</a>
+                            <a href="https://evovisual-advanced-evolutionary-concepts-577160257370.us-west1.run.app/" target="_blank">EvoVisual</a>
+                        </div>
+                        
+                        <div class="footer-section">
+                            <h4>Connect</h4>
+                            <a href="https://twitter.com/Okyasoft" target="_blank">Twitter</a>
+                            <a href="https://www.facebook.com/Okyasoft" target="_blank">Facebook</a>
+                            <a href="https://www.linkedin.com/company/okyasoft/" target="_blank">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Okyasoft. All rights reserved.</p>
+                    <div class="social-links">
+                        <a href="https://twitter.com/Okyasoft" target="_blank" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.facebook.com/Okyasoft" target="_blank" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/okyasoft/" target="_blank" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		<!-- Features Wrapper -->
-			<div id="features-wrapper">
-				<div class="5grid-layout">
-					<div class="row">
-						<div class="4u">
-						
-							<!-- Box -->
-								<section class="box box-feature">
-									<a href="#" name="moreinfo" class="image image-full"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="inner">
-										<header>
-											<h2>Explore</h2>
-											<span class="byline">Identifying new opportunities</span>
-										</header>
-										<p> Using industry relevant results from gap analysis
-                                        and competitive analysis, to accurately position your idea in the
-                                        market. Getting your value proposition right at the onset is half the battle
-                                        won.
-                                        </p>
-									</div>
-								</section>
-
-						</div>
-						<div class="4u">
-						
-							<!-- Box -->
-								<section class="box box-feature">
-									<a href="#" class="image image-full"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="inner">
-										<header>
-											<h2>Market</h2>
-											<span class="byline">Developing strategic roadmap</span>
-										</header>
-										<p>Planning the go-to-market strategy, choosing different distribution
-                                        channels and developing a sales model. Creating a digital marketing
-                                        roadmap helps in reinforcing the strategic direction.</p>
-									</div>
-								</section>
-
-						</div>
-						<div class="4u">
-						
-							<!-- Box -->
-								<section class="box box-feature last">
-									<a href="#" class="image image-full"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="inner">
-										<header>
-											<h2>Execute</h2>
-											<span class="byline">Building innovative products</span>
-										</header>
-										<p> Developing a business plan and building a feasibility prototype. Testing your idea by leveraging different communities and incorporating timely feedback into your product or service.</p>
-									</div>
-								</section>
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-		<!-- Main Wrapper -->
-			<div id="main-wrapper">
-				<div class="5grid-layout">
-					<div class="row">
-						<div class="4u">
-						
-							<!-- Sidebar -->
-								<div id="sidebar">
-									<section class="widget-thumbnails">
-										<h3>Clients</h3>
-										<div class="do-5grid grid">
-											<div class="row">
-												<div class="do-6u"><a href="portfolio.html#plusfithub" class="image image-full x"><img src="images/pic04.jpg" alt="" /></a></div>
-												<div class="do-6u"><a href="portfolio.html#smoocer" class="image image-full y"><img src="images/pic05.jpg" alt="" /></a></div>
-											</div>
-											<div class="row">
-												<div class="do-6u"><a href="portfolio.html#magicco" class="image image-full x"><img src="images/pic06.jpg" alt="" /></a></div>
-												<div class="do-6u"><a href="portfolio.html#aggrin" class="image image-full y"><img src="images/pic07.jpg" alt="" /></a></div>
-											</div>
-										</div>
-										<a href="portfolio.html" class="button button-icon button-icon-paper">More</a>
-									</section>
-								</div>
-						
-						</div>
-						<div class="8u">
-
-							<!-- Content -->
-								<div id="content">
-									<section class="last">
-										<h2>Our Mantra</h2>
-										<p>We engage with companies at an early stage by providing guidance and
-                                        support. We
-                                        partner closely with our clients to ensure their success.
-                                        Refining and validating, your idea, pitch and plan will help you
-                                        get better funding and exposure. We focus on collaboration and building
-                                        relationships with our clients.
-                                        Contact us to make us a part of your journey.
-                                        </p>
-										<p>We also work with startup communities, to provide resources and tools for
-                                        budding entrepreneurs.</p>
-										<a href="resources.html" class="button button-icon button-icon-rarrow">More Resources</a>
-									</section>
-								</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		<!-- Footer Wrapper -->
-			<div id="footer-wrapper">
-				<footer id="footer" class="5grid-layout">
-					<div class="row">
-						<div class="3u">
-						
-							<!-- Links -->
-								<section class="widget-links">
-									<h2>Latest News</h2>
-									<ul class="style2">
-										<li><a href="#">New Website Launched, Feb 24 2013</a></li>
-										<li><a href="http://fb.me/magic.comics" target="_blank">3000 Likes for Magicco, Jan 17 2013</a></li>
-                                        <li><a href="https://www.facebook.com/photo.php?fbid=10150738398048844&set=a.10150738392193844.422306.298896243843" target="_blank">Startups@Singapore, Apr 15 2012</a></li>
-										<li><a href="https://github.com/Akash91/CoSQL" target="_blank">First Client CoSQL, Dec 10 2011 </a></li>
-										<li><a href="https://www.facebook.com/Okyasoft" target="_blank">Facebook Page Created, 2010</a></li>
-									</ul>
-								</section>
-						
-						</div>
-						<div class="3u">
-						
-							<!-- Links -->
-								<section class="widget-links">
-									<h2>Featured Posts</h2>
-									<ul class="style2">
-										<li><a href="http://okyasoft.blogspot.com/2014/04/how-to-choose-right-technology-stack.html" target="_blank">How to choose the right tech ...</a></li>
-										<li><a href="http://okyasoft.blogspot.com/2013/12/business-intelligence-in-business.html" target="_blank">Business Intelligence in Business ...</a></li>
-										<li><a href="http://okyasoft.blogspot.com/2013/01/investing-in-right-people.html" target="_blank">Investing in the right people</a></li>
-										<li><a href="http://okyasoft.blogspot.com/2012/05/bootstrapping-plan-of-attack.html" target="_blank">Bootstrapping - The Plan of Attack</a></li>
-										<li><a href="http://okyasoft.blogspot.com/2012/03/bootstrapping-calculations.html" target="_blank">Bootstrapping - The Calculations</a></li>
-									</ul>
-								</section>
-						
-						</div>
-						<div class="3u">
-						
-							<!-- Links -->
-                            <section class="widget-links">
-                                <h2>New Resources</h2>
-                                <ul class="style2">
-                                    <li><a href="resources.html#tamsamsom">TAM SAM SOM</a></li>
-                                    <li><a href="resources.html#edt">Energy Decision Timeline</a></li>
-                                    <li><a href="resources.html#poar">Plan of Attack Radial</a></li>
-                                    <li><a href="resources.html#sf">Startup Financials</a></li>
-                                    <li><a href="resources.html#bmc">Business Model Canvas</a></li>
-                                </ul>
-                            </section>
-						
-						</div>						
-						<div class="3u">
-							<!-- Contact -->
-								<section class="widget-contact last">
-									<h2>Contact Us</h2>
-									<ul>
-										<li><a href="mailto:contact@okyasoft.com" class="email">Email</a></li>
-                                        <li><a href="http://www.facebook.com/Okyasoft" class="facebook" target="_blank">Facebook</a></li>
-										<li><a href="https://twitter.com/Okyasoft" class="twitter" target="_blank">Twitter</a></li>
-										<li><a href="https://plus.google.com/b/108180382765285893535/" class="googleplus" target="_blank">Google+</a></li>
-									</ul>
-									<p>contact at Okyasoft dot com
-									</p>
-								</section>
-						
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
-							<div id="copyright">
-								&copy; Okyasoft. All rights reserved. | Images: <a href="http://fotogrph.com/">Fotogrph</a> + <a href="http://iconify.it/">Iconify.it</a> | Design: <a href="http://html5up.net/">HTML5 Up!</a>
-							</div>
-						</div>
-					</div>
-				</footer>
-			</div>
-
-	</body>
+    <!-- Smooth scrolling script -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Add scroll effect to hero cards
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.floating-cards');
+            if (parallax) {
+                const speed = scrolled * 0.5;
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
+        });
+    </script>
+</body>
 </html>
